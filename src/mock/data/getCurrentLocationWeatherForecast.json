@@ -1,0 +1,41 @@
+{
+	"coord": {
+		"lon": 72.56,
+		"lat": 23.14
+	},
+	"weather": [{
+		"id": 721,
+		"main": "Haze",
+		"description": "haze",
+		"icon": "50n"
+	}],
+	"base": "stations",
+	"main": {
+		"temp": 86,
+		"feels_like": 95.36,
+		"temp_min": 86,
+		"temp_max": 86,
+		"pressure": 1004,
+		"humidity": 84
+	},
+	"visibility": 4000,
+	"wind": {
+		"speed": 8.05,
+		"deg": 210
+	},
+	"clouds": {
+		"all": 40
+	},
+	"dt": 1595095558,
+	"sys": {
+		"type": 1,
+		"id": 9049,
+		"country": "IN",
+		"sunrise": 1595032449,
+		"sunset": 1595080647
+	},
+	"timezone": 19800,
+	"id": 1279373,
+	"name": "Adalaj",
+	"cod": 200
+}

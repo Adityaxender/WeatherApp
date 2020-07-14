@@ -24,7 +24,6 @@ export class AllCitiesList2Page implements OnInit {
         this.CityListData = history.state.dynamicRouteData.queryParams;
         this.hideMessage = false;
     } catch (e) {
-        console.log(e);
         this.hideMessage = true;
     }
   }

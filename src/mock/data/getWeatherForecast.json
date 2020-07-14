@@ -1,0 +1,482 @@
+{
+	"cod": "200",
+	"message": 0,
+	"cnt": 14,
+	"list": [{
+		"dt": 1595106000,
+		"main": {
+			"temp": 88.34,
+			"feels_like": 97.74,
+			"temp_min": 88.34,
+			"temp_max": 90.81,
+			"pressure": 1000,
+			"sea_level": 997,
+			"grnd_level": 984,
+			"humidity": 72,
+			"temp_kf": -1.37
+		},
+		"weather": [{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04n"
+		}],
+		"clouds": {
+			"all": 86
+		},
+		"wind": {
+			"speed": 5.1,
+			"deg": 144
+		},
+		"visibility": 10000,
+		"pop": 0,
+		"sys": {
+			"pod": "n"
+		},
+		"dt_txt": "2020-07-18 21:00:00"
+	}, {
+		"dt": 1595116800,
+		"main": {
+			"temp": 88.97,
+			"feels_like": 96.1,
+			"temp_min": 88.97,
+			"temp_max": 89.8,
+			"pressure": 998,
+			"sea_level": 997,
+			"grnd_level": 983,
+			"humidity": 64,
+			"temp_kf": -0.46
+		},
+		"weather": [{
+			"id": 803,
+			"main": "Clouds",
+			"description": "broken clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 77
+		},
+		"wind": {
+			"speed": 5.93,
+			"deg": 171
+		},
+		"visibility": 10000,
+		"pop": 0,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-19 00:00:00"
+	}, {
+		"dt": 1595127600,
+		"main": {
+			"temp": 96.58,
+			"feels_like": 101.5,
+			"temp_min": 96.58,
+			"temp_max": 97.3,
+			"pressure": 999,
+			"sea_level": 999,
+			"grnd_level": 985,
+			"humidity": 47,
+			"temp_kf": -0.4
+		},
+		"weather": [{
+			"id": 803,
+			"main": "Clouds",
+			"description": "broken clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 71
+		},
+		"wind": {
+			"speed": 7.63,
+			"deg": 210
+		},
+		"visibility": 10000,
+		"pop": 0,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-19 03:00:00"
+	}, {
+		"dt": 1595138400,
+		"main": {
+			"temp": 102.38,
+			"feels_like": 105.3,
+			"temp_min": 102.38,
+			"temp_max": 102.51,
+			"pressure": 997,
+			"sea_level": 997,
+			"grnd_level": 984,
+			"humidity": 35,
+			"temp_kf": -0.07
+		},
+		"weather": [{
+			"id": 803,
+			"main": "Clouds",
+			"description": "broken clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 65
+		},
+		"wind": {
+			"speed": 7.9,
+			"deg": 283
+		},
+		"visibility": 10000,
+		"pop": 0.02,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-19 06:00:00"
+	}, {
+		"dt": 1595149200,
+		"main": {
+			"temp": 102.67,
+			"feels_like": 107.71,
+			"temp_min": 102.67,
+			"temp_max": 102.67,
+			"pressure": 995,
+			"sea_level": 995,
+			"grnd_level": 981,
+			"humidity": 36,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 100
+		},
+		"wind": {
+			"speed": 5.08,
+			"deg": 272
+		},
+		"visibility": 10000,
+		"pop": 0.11,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-19 09:00:00"
+	}, {
+		"dt": 1595160000,
+		"main": {
+			"temp": 96.13,
+			"feels_like": 103.68,
+			"temp_min": 96.13,
+			"temp_max": 96.13,
+			"pressure": 993,
+			"sea_level": 993,
+			"grnd_level": 980,
+			"humidity": 51,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 500,
+			"main": "Rain",
+			"description": "light rain",
+			"icon": "10d"
+		}],
+		"clouds": {
+			"all": 100
+		},
+		"wind": {
+			"speed": 5.01,
+			"deg": 185
+		},
+		"visibility": 10000,
+		"pop": 0.39,
+		"rain": {
+			"3h": 0.82
+		},
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-19 12:00:00"
+	}, {
+		"dt": 1595170800,
+		"main": {
+			"temp": 90.68,
+			"feels_like": 98.51,
+			"temp_min": 90.68,
+			"temp_max": 90.68,
+			"pressure": 995,
+			"sea_level": 995,
+			"grnd_level": 981,
+			"humidity": 62,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 501,
+			"main": "Rain",
+			"description": "moderate rain",
+			"icon": "10n"
+		}],
+		"clouds": {
+			"all": 100
+		},
+		"wind": {
+			"speed": 5.35,
+			"deg": 140
+		},
+		"visibility": 10000,
+		"pop": 0.69,
+		"rain": {
+			"3h": 3.42
+		},
+		"sys": {
+			"pod": "n"
+		},
+		"dt_txt": "2020-07-19 15:00:00"
+	}, {
+		"dt": 1595181600,
+		"main": {
+			"temp": 87.22,
+			"feels_like": 93.96,
+			"temp_min": 87.22,
+			"temp_max": 87.22,
+			"pressure": 996,
+			"sea_level": 996,
+			"grnd_level": 982,
+			"humidity": 69,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 501,
+			"main": "Rain",
+			"description": "moderate rain",
+			"icon": "10n"
+		}],
+		"clouds": {
+			"all": 100
+		},
+		"wind": {
+			"speed": 7.27,
+			"deg": 227
+		},
+		"visibility": 10000,
+		"pop": 0.96,
+		"rain": {
+			"3h": 6.01
+		},
+		"sys": {
+			"pod": "n"
+		},
+		"dt_txt": "2020-07-19 18:00:00"
+	}, {
+		"dt": 1595192400,
+		"main": {
+			"temp": 86.86,
+			"feels_like": 96.62,
+			"temp_min": 86.86,
+			"temp_max": 86.86,
+			"pressure": 994,
+			"sea_level": 994,
+			"grnd_level": 980,
+			"humidity": 73,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 500,
+			"main": "Rain",
+			"description": "light rain",
+			"icon": "10n"
+		}],
+		"clouds": {
+			"all": 99
+		},
+		"wind": {
+			"speed": 3.36,
+			"deg": 232
+		},
+		"visibility": 10000,
+		"pop": 0.66,
+		"rain": {
+			"3h": 1.75
+		},
+		"sys": {
+			"pod": "n"
+		},
+		"dt_txt": "2020-07-19 21:00:00"
+	}, {
+		"dt": 1595203200,
+		"main": {
+			"temp": 85.44,
+			"feels_like": 96.75,
+			"temp_min": 85.44,
+			"temp_max": 85.44,
+			"pressure": 994,
+			"sea_level": 994,
+			"grnd_level": 980,
+			"humidity": 77,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 99
+		},
+		"wind": {
+			"speed": 0.89,
+			"deg": 263
+		},
+		"visibility": 10000,
+		"pop": 0.56,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-20 00:00:00"
+	}, {
+		"dt": 1595214000,
+		"main": {
+			"temp": 91.63,
+			"feels_like": 99.34,
+			"temp_min": 91.63,
+			"temp_max": 91.63,
+			"pressure": 995,
+			"sea_level": 995,
+			"grnd_level": 982,
+			"humidity": 61,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 89
+		},
+		"wind": {
+			"speed": 6.02,
+			"deg": 220
+		},
+		"visibility": 10000,
+		"pop": 0.37,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-20 03:00:00"
+	}, {
+		"dt": 1595224800,
+		"main": {
+			"temp": 100.08,
+			"feels_like": 104.83,
+			"temp_min": 100.08,
+			"temp_max": 100.08,
+			"pressure": 995,
+			"sea_level": 995,
+			"grnd_level": 982,
+			"humidity": 44,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 86
+		},
+		"wind": {
+			"speed": 9.1,
+			"deg": 287
+		},
+		"visibility": 10000,
+		"pop": 0.29,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-20 06:00:00"
+	}, {
+		"dt": 1595235600,
+		"main": {
+			"temp": 99.05,
+			"feels_like": 103.62,
+			"temp_min": 99.05,
+			"temp_max": 99.05,
+			"pressure": 992,
+			"sea_level": 992,
+			"grnd_level": 979,
+			"humidity": 45,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 804,
+			"main": "Clouds",
+			"description": "overcast clouds",
+			"icon": "04d"
+		}],
+		"clouds": {
+			"all": 100
+		},
+		"wind": {
+			"speed": 9.17,
+			"deg": 318
+		},
+		"visibility": 10000,
+		"pop": 0.34,
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-20 09:00:00"
+	}, {
+		"dt": 1595246400,
+		"main": {
+			"temp": 96.39,
+			"feels_like": 104.99,
+			"temp_min": 96.39,
+			"temp_max": 96.39,
+			"pressure": 992,
+			"sea_level": 992,
+			"grnd_level": 979,
+			"humidity": 51,
+			"temp_kf": 0
+		},
+		"weather": [{
+			"id": 500,
+			"main": "Rain",
+			"description": "light rain",
+			"icon": "10d"
+		}],
+		"clouds": {
+			"all": 97
+		},
+		"wind": {
+			"speed": 3.38,
+			"deg": 284
+		},
+		"visibility": 10000,
+		"pop": 0.73,
+		"rain": {
+			"3h": 0.38
+		},
+		"sys": {
+			"pod": "d"
+		},
+		"dt_txt": "2020-07-20 12:00:00"
+	}],
+	"city": {
+		"id": 1264733,
+		"name": "Lucknow",
+		"coord": {
+			"lat": 26.85,
+			"lon": 80.9167
+		},
+		"country": "IN",
+		"population": 2472011,
+		"timezone": 19800,
+		"sunrise": 1595030011,
+		"sunset": 1595079073
+	}
+}
