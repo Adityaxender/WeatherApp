@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ZymrWeather</string>
+    <string name="title_activity_main">ZymrWeather</string>
+    <string name="package_name">com.ZymrWeather.app</string>
+    <string name="custom_url_scheme">com.ZymrWeather.app</string>
+</resources>
