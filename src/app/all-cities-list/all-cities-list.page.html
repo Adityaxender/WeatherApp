@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+     <ion-title>All City Weather Forecast</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid mode="md" lines="full" class="ion-no-margin grid-margin" *ngFor="let item of CityListData">
+     <ion-row (click)="getWeatherForecastReport(item)">
+        <ion-col class="ion-text-left">
+           <ion-label class="label-color" style="font-size: 20px;">{{ item.name }}</ion-label>
+           <br>
+           <ion-label class="label-color-yellow" style="font-size: 11px;">check weather report</ion-label>
+        </ion-col>
+        <ion-col class="ion-text-right">
+           <img src="../../assets/icon/partly_cloudy.png" class="image-size" />
+        </ion-col>
+     </ion-row>
+  </ion-grid>
+  <div class="center" *ngIf="hideMessage">No City Found</div>
+</ion-content>

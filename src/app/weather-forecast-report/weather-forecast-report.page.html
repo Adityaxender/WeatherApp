@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar class="background-color">
+     <ion-buttons slot="start">
+        <ion-back-button></ion-back-button>
+        <ion-title>
+           Weather Forecast
+        </ion-title>
+     </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid mode="md" lines="full" inset class="ion-no-margin ion-no-padding" style="padding-top: 10px;">
+     <ion-row class="align-text-center ion-no-padding">
+        <ion-col>
+           <ion-label class="font-size-l label-color"> {{ this.cityName }} </ion-label>
+        </ion-col>
+     </ion-row>
+  </ion-grid>
+  <ion-grid mode="md" lines="full" class="ion-no-margin grid-margin" *ngFor="let item of weatherForecastResponseData">
+     <ion-row>
+        <ion-col class="ion-text-left">
+           <ion-label class="label-color" style="font-size: 20px;">{{ item.date }} </ion-label>
+           <ion-label class="label-color-yellow" style="font-size: 11px;">{{ item.time }} </ion-label>
+        </ion-col>
+        <ion-col class="ion-text-right">
+           <ion-label class="label-color" style="font-size: 20px;">{{ item.type }} </ion-label>
+           <img src="../../assets/icon/partly_cloudy.png" class="image-size" />
+        </ion-col>
+     </ion-row>
+     <ion-row >
+        <ion-col >
+           <ion-label class="font-size-s label-color ion-text-left">Wind</ion-label>
+           <br>
+           <ion-label class="label-color-yellow ion-text-left" style="font-size: 10px;">{{ item.wind }} </ion-label>
+        </ion-col>
+        <ion-col >
+           <ion-label class="font-size-s label-color ion-text-left">Humudity</ion-label>
+           <br>
+           <ion-label class="label-color-yellow ion-text-left" style="font-size: 10px;">{{ item.humidity }} </ion-label>
+        </ion-col>
+        <ion-col >
+           <ion-label class="font-size-s label-color ion-text-left">Temperature</ion-label>
+           <br>
+           <ion-label class="label-color-yellow ion-text-left" style="font-size: 10px;">{{ item.temp }} </ion-label>
+        </ion-col>
+     </ion-row>
+  </ion-grid>
+</ion-content>

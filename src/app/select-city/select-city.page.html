@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add City</ion-title>
+  </ion-toolbar>
+  <ion-searchbar placeholder="Search City Name" [(ngModel)]="selectedCity" [showCancelButton]="false" (ionCancel)="onCancel($event)" (ionChange)="getItems($event)"></ion-searchbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="isItemAvailable">
+    <ion-item *ngFor="let item of items" (click)="addCity(item)">{{ item.name }}</ion-item>
+  </ion-list>
+</ion-content>
+

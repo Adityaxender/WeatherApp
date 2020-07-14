@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar class="background-color">
+    <ion-buttons slot="end">
+      <ion-button (click)="exitApp()">
+        <ion-icon slot="icon-only" name="md-exit"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="title-align">
+      Weather Forecast
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content></ion-content>
+<ion-tabs>
+<ion-tab-bar slot="bottom" class="tab-bar-custom">
+  <ion-tab-button tab="my-location">
+    <ion-icon name="home"></ion-icon>
+    <ion-label>My Place</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="all-cities-list" (click)="createCityList()">
+    <ion-icon name="apps"></ion-icon>
+    <ion-label>Forecast</ion-label>
+  </ion-tab-button>
+
+  <ion-tab-button tab="select-city">
+    <ion-icon name="settings"></ion-icon>
+    <ion-label>Add City</ion-label>
+  </ion-tab-button>
+</ion-tab-bar>
+
+</ion-tabs>
