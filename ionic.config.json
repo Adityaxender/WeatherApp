@@ -1,0 +1,7 @@
+{
+  "name": "ZymrWeatherForecastApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

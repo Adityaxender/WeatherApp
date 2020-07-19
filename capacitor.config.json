@@ -1,0 +1,11 @@
+{
+  "appId": "com.ZymrWeather.app",
+  "appName": "ZymrWeather",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "android": {
+    "allowMixedContent": true
+  }
+}
